@@ -13,11 +13,11 @@ In this project we seek to demonstrate that in-situ fault injection by creating 
 ## 🟠 Status
 
 This project is ongoing. It is structured as follows:
-* [Milestone 1](https://github.com/decryptofy/insitu_fpga_nlnet/blob/main/milestones/MILESTONE_1.md): Develop Hardware Setup and Test Methodology
-* [Milestone 2](https://github.com/decryptofy/insitu_fpga_nlnet/blob/main/milestones/MILESTONE_2.md): Comparative Study: short-circuits vs. external glitches (_unprotected scenario_)
-* [Milestone 3](https://github.com/decryptofy/insitu_fpga_nlnet/blob/main/milestones/MILESTONE_3.md): Develop Glitch Detectors
-* [Milestone 4](https://github.com/decryptofy/insitu_fpga_nlnet/blob/main/milestones/MILESTONE_4.md): Comparative Study: short-circuits vs. external glitches (_protected scenario_)
-* [Milestone 5](https://github.com/decryptofy/insitu_fpga_nlnet/blob/main/milestones/MILESTONE_5.md): Automation of Testing / Calibration / and Scaling
+* [Milestone 1](https://github.com/pacificlab/fpga_inject/blob/main/milestones/MILESTONE_1.md): Develop Hardware Setup and Test Methodology
+* [Milestone 2](https://github.com/pacificlab/fpga_inject/blob/main/milestones/MILESTONE_2.md): Comparative Study: short-circuits vs. external glitches (_unprotected scenario_)
+* [Milestone 3](https://github.com/pacificlab/fpga_inject/blob/main/milestones/MILESTONE_3.md): Develop Glitch Detectors
+* [Milestone 4](https://github.com/pacificlab/fpga_inject/blob/main/milestones/MILESTONE_4.md): Comparative Study: short-circuits vs. external glitches (_protected scenario_)
+* [Milestone 5](https://github.com/pacificlab/fpga_inject/blob/main/milestones/MILESTONE_5.md): Automation of Testing / Calibration / and Scaling
 
 ## ✨ 101 on How to Get Started
 
