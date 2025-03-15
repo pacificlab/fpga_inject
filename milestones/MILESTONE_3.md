@@ -14,11 +14,11 @@ In the given milestone, the following points should be completed:
 ### What Was Done:
 
 - **a.** Glitch sensors were surveyed, assessing the opportunity to calibrate them:
-  `insitu_fpga_nlnet/firmware/hdl/Voltage_Glitch_Detectors/README.md`
+  `fpga_inject/firmware/hdl/Voltage_Glitch_Detectors/README.md`
 
 - **b.** && **c.** Three different glitch sensors were selected, a rationale for the selection criteria was provided, and they were implemented and calibrated within the AES design under test:
- 1.   `insitu_fpga_nlnet/firmware/hdl/Voltage_Glitch_Detectors/Detector_1/`
- 2.   `insitu_fpga_nlnet/firmware/hdl/Voltage_Glitch_Detectors/Detector_2/`
- 3.   `insitu_fpga_nlnet/firmware/hdl/Voltage_Glitch_Detectors/Detector_3/`
+ 1.   `fpga_inject/firmware/hdl/Voltage_Glitch_Detectors/Detector_1/`
+ 2.   `fpga_inject/firmware/hdl/Voltage_Glitch_Detectors/Detector_2/`
+ 3.   `fpga_inject/firmware/hdl/Voltage_Glitch_Detectors/Detector_3/`
 
 - **d.** Code, documentation, and related items were re-released on GitHub.
