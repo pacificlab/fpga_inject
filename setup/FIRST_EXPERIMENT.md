@@ -80,7 +80,7 @@ scope.glitch.output = 'enable_only'
 scope.glitch.repeat = 3  # 1–3 cycles
 
 
-#### c. Sending/Receiving Data (Python)
+#### c. Sending/Receiving Data 
 
 from tqdm.notebook import trange
 import numpy as np
@@ -133,6 +133,7 @@ After scope.arm() is called and scope is waiting for trigger,
 you can send data via Hterm (UART terminal).
 
 
+```python
 
 ### 3. Internal SC glitch experiments
 
