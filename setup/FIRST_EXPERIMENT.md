@@ -13,8 +13,9 @@ Chipwhisperer Husky can be connected to laptop via microUSB directly.
 
 Refer to `fpga_inject/workflows/characterizing_External_SC_Glitches/`
 
-General sequence:  
-Generate bitstream with Vivado (AES module) -> Upload bitstream to CW305 with python -> Communicate via UART (encrypt/decrypt) -> Inject glitches via Chipwhisperer software.
+##### General sequence:  
+Generate bitstream with Vivado (AES module) -> Upload bitstream to CW305 with python -> 
+Communicate via UART (encrypt/decrypt) -> Inject glitches via Chipwhisperer software.
 
 bitstream location:  
 `fpga_inject/workflows/characterizing_External_SC_Glitches/External_Glitches/experiments_/aes.bit`
@@ -63,7 +64,7 @@ assert scope.clock.adc_locked, "ADC failed to lock"
 
 
 
- ### Glitch Configuration
+#### Glitch Configuration
 
 
 scope.glitch.enabled = True
