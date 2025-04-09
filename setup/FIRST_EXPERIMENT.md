@@ -135,7 +135,7 @@ you can send data via Hterm (UART terminal).
 ```
 
 
-### 3. Internal SC glitch experiments
+### Internal SC glitch workflow
 
 #### a. SC Generation (Java + RapidWright)
 Tools: IntelliJ, RapidWright, BYU Shorty lib + Vivado DCP
