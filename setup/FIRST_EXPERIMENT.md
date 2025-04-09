@@ -132,7 +132,7 @@ with open("external_0_7v_2_5_cycles.txt", "w") as f:
 After scope.arm() is called and scope is waiting for trigger,
 you can send data via Hterm (UART terminal).
 
-```python
+```
 
 
 ### 3. Internal SC glitch experiments
