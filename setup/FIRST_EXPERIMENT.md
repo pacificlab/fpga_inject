@@ -175,5 +175,4 @@ assert scope.clock.adc_locked, "ADC failed to lock"
 
 #### c. Sending/Receiving Data (same as External)
 
-
-* The last two cells in the script are for drawing graphs and can be modified for your convenience.
+The last two cells in the script are for drawing graphs and can be modified for your convenience.
