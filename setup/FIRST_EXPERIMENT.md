@@ -4,7 +4,7 @@
 
 Refer to `fpga_inject/hardware/README.md` and hardware setup image.  
 
-Note that thunderbolt is not necessary, we can power and program FPGA directly.  
+Thunderbolt is optional, we can power and program FPGA directly.  
 Chipwhisperer Husky can be connected to laptop via microUSB directly.
 
 ---
