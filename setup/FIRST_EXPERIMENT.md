@@ -138,7 +138,7 @@ you can send data via Hterm (UART terminal).
 ### 3. Internal SC glitch experiments
 
 #### a. SC Generation (Java + RapidWright)
-Tool: IntelliJ, RapidWright, BYU Shorty lib + Vivado DCP
+Tools: IntelliJ, RapidWright, BYU Shorty lib + Vivado DCP
 
 String dcpPath = "<path_to_dcp>";
 String deviceName = "<fpga_device_name>";
@@ -149,13 +149,15 @@ ShortTools.createShortedRegion(design, start_x, end_x, start_y, end_y, n);
 design.writeCheckpoint("<output_path>");
 
 
-Input .dcp
+1. Input .dcp
 
-Enable target net
+2. Enable target net
 
-Create SC region (x, y)
+3. Create SC region (x, y)
 
-Save modified .dcp
+4. Save modified .dcp
+
+Examples:
 
 bit: fpga_inject/firmware/hdl/Voltage_Glitch_Detectors/sources/bitstream_files/
 map: fpga_inject/firmware/hdl/Voltage_Glitch_Detectors/Test_Calibration_Map.xlsx
@@ -174,4 +176,4 @@ assert scope.clock.adc_locked, "ADC failed to lock"
 #### c. Sending/Receiving Data (same as External)
 
 
-The last two cells in the script for drawing graphs, and can be changed for your convenience.
+The last two cells in the script are for drawing graphs and can be modified for your convenience.
